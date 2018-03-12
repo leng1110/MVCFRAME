@@ -11,7 +11,7 @@ class controller{
 	public function init(){
 
 		define('CONTROLLER_DIR', ROOT_DIR.'/app/controller');	//控制器
-		define('MODEL_DIR', ROOT_DIR.'/model');	//模型
+		define('MODEL_DIR', ROOT_DIR.'/app/model');	//模型
 		define('VIEW_DIR', ROOT_DIR.'/app/view');	//视图
 		define('CONFIG_DIR', ROOT_DIR.'/config');	//配置文件
 
